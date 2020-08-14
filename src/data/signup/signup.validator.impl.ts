@@ -1,6 +1,6 @@
 import * as Module from 'joi';
 
-import { ValidatorResult } from '../../app/core/definitions/validator-result';
+import { ValidatorResult } from '../../app/Shared/Definitions/validator-result';
 import { SignupInput } from '../../app/signup/signup.in';
 import { SignupValidator } from '../../app/signup/signup.validator';
 

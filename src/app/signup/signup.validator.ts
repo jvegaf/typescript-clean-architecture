@@ -1,5 +1,5 @@
-import { Validator } from '../core/definitions/validator';
-import { ValidatorResult } from '../core/definitions/validator-result';
+import { Validator } from '../Shared/Definitions/validator';
+import { ValidatorResult } from '../Shared/Definitions/validator-result';
 
 import { SignupInput } from './signup.in';
 

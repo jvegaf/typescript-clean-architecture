@@ -1,8 +1,8 @@
-import { DepositInteractor } from './deposit.interactor';
-import { TestEnvironment } from '../../test-environment';
-import { DepositInput } from './deposit.in';
-import { DepositOutput } from './deposit.out';
-import { ValidatorResult } from '../core/definitions/validator-result';
+import { DepositInteractor } from '../src/app/deposit/deposit.interactor';
+import { TestEnvironment } from '../src/test-environment';
+import { DepositInput } from '../src/app/deposit/deposit.in';
+import { DepositOutput } from '../src/app/deposit/deposit.out';
+import { ValidatorResult } from '../src/app/Shared/Definitions/validator-result';
 
 function isDepositOutput(output: DepositOutput): output is DepositOutput {
   return (output as DepositOutput) !== undefined;

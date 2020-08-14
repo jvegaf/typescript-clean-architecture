@@ -1,4 +1,4 @@
-import { CustomError } from '../../../app/core/definitions/custom-error';
+import { CustomError } from '../../../app/Shared/Error/custom-error';
 
 export class GeneralErrorImpl extends CustomError {
   name = 'generalError';

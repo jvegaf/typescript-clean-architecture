@@ -6,7 +6,7 @@ import { UserExistsErrorImpl } from './user-exists.err.impl';
 import { ValidationErrorImpl } from './validation.err.impl';
 import { UserHasNoBalanceErrorImpl } from './user-has-no-balance.err.impl';
 import { TransferErrorImpl } from './transfer.err.impl';
-import { CustomError } from '../../../app/core/definitions/custom-error';
+import { CustomError } from '../../../app/Shared/Error/custom-error';
 
 export const ERRORS: Record<string, CustomError> = {
   general: new GeneralErrorImpl(),

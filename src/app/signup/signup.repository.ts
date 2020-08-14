@@ -1,4 +1,4 @@
-import { ID } from '../core/definitions/id';
+import { ID } from '../Shared/Definitions/id';
 import { User } from '../core/entities/user';
 
 export interface SignupRepository {

@@ -1,8 +1,8 @@
-import { TransferInteractor } from './transfer.interactor';
-import { TestEnvironment } from '../../test-environment';
-import { TransferInput } from './transfer.in';
-import { TransferOutput } from './transfer.out';
-import { ValidatorResult } from '../core/definitions/validator-result';
+import { TransferInteractor } from '../src/app/transfer/transfer.interactor';
+import { TestEnvironment } from '../src/test-environment';
+import { TransferInput } from '../src/app/transfer/transfer.in';
+import { TransferOutput } from '../src/app/transfer/transfer.out';
+import { ValidatorResult } from '../src/app/Shared/Definitions/validator-result';
 
 const validatorResult: ValidatorResult = { valid: true, error: null };
 const insertResult = { id: 10 };

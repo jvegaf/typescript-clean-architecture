@@ -1,8 +1,8 @@
-import { SignupInteractor } from './signup.interactor';
-import { TestEnvironment } from '../../test-environment';
-import { SignupInput } from './signup.in';
-import { SignupOutput } from './signup.out';
-import { ValidatorResult } from '../core/definitions/validator-result';
+import { SignupInteractor } from '../src/app/signup/signup.interactor';
+import { TestEnvironment } from '../src/test-environment';
+import { SignupInput } from '../src/app/signup/signup.in';
+import { SignupOutput } from '../src/app/signup/signup.out';
+import { ValidatorResult } from '../src/app/Shared/Definitions/validator-result';
 
 const validatorResult: ValidatorResult = { valid: true, error: null };
 const insertResult = { id: 10 };

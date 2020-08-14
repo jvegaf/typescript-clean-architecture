@@ -1,5 +1,5 @@
-import { ID } from '../../../../app/core/definitions/id';
-import { Presenter, PresenterOutput } from '../../../../app/core/definitions/presenter';
+import { ID } from '../../../../app/Shared/Definitions/id';
+import { Presenter, PresenterOutput } from '../../../../app/Shared/Definitions/presenter';
 import { DepositOutput } from '../../../../app/deposit/deposit.out';
 
 export interface DepositPresenterOutput extends PresenterOutput {

@@ -1,13 +1,13 @@
-import { ID } from '../core/definitions/id';
-import { Interactor } from '../core/definitions/interactor';
+import { ID } from '../Shared/Definitions/id';
+import { Interactor } from '../Shared/Definitions/interactor';
 import { User } from '../core/entities/user';
-import { ApplicationErrorFactory } from '../core/definitions/application-error-factory';
+import { ApplicationErrorFactory } from '../Shared/Error/application-error-factory';
 
 import { TransferInput } from './transfer.in';
 import { TransferOutput } from './transfer.out';
 import { TransferRepository } from './transfer.repository';
 import { TransferValidator } from './transfer.validator';
-import { ErrorType } from '../core/definitions/error-type';
+import { ErrorType } from '../Shared/Error/error-type';
 
 export class TransferInteractor implements Interactor {
   constructor(

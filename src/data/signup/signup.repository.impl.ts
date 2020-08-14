@@ -1,4 +1,4 @@
-import { ID } from '../../app/core/definitions/id';
+import { ID } from '../../app/Shared/Definitions/id';
 import { User } from '../../app/core/entities/user';
 import { SignupRepository } from '../../app/signup/signup.repository';
 import { Database } from '../db';

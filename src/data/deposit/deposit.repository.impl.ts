@@ -1,4 +1,4 @@
-import { ID } from '../../app/core/definitions/id';
+import { ID } from '../../app/Shared/Definitions/id';
 import { Transaction } from '../../app/core/entities/transaction';
 import { User } from '../../app/core/entities/user';
 import { DepositRepository } from '../../app/deposit/deposit.repository';

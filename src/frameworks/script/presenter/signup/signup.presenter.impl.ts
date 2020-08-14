@@ -1,4 +1,4 @@
-import { ID } from '../../../../app/core/definitions/id';
+import { ID } from '../../../../app/Shared/Definitions/id';
 import { SignupOutput } from '../../../../app/signup/signup.out';
 
 import { SignupPresenter, SignupPresenterOutput } from './signup.presenter';

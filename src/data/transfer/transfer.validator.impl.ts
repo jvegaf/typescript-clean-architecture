@@ -1,6 +1,6 @@
 import * as Module from 'joi';
 
-import { ValidatorResult } from '../../app/core/definitions/validator-result';
+import { ValidatorResult } from '../../app/Shared/Definitions/validator-result';
 import { TransferInput } from '../../app/transfer/transfer.in';
 import { TransferValidator } from '../../app/transfer/transfer.validator';
 

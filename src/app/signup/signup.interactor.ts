@@ -1,12 +1,12 @@
-import { Interactor } from '../core/definitions/interactor';
+import { Interactor } from '../Shared/Definitions//interactor';
 import { User } from '../core/entities/user';
-import { ApplicationErrorFactory } from '../core/definitions/application-error-factory';
+import { ApplicationErrorFactory } from '../Shared/Error/application-error-factory';
 
 import { SignupInput } from './signup.in';
 import { SignupOutput } from './signup.out';
 import { SignupRepository } from './signup.repository';
 import { SignupValidator } from './signup.validator';
-import { ErrorType } from '../core/definitions/error-type';
+import { ErrorType } from '../Shared/Error/error-type';
 
 export class SignupInteractor implements Interactor {
   constructor(

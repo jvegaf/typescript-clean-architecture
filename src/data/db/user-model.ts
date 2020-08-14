@@ -1,5 +1,5 @@
-import { ID } from '../../app/core/definitions/id';
-import { Model } from '../../app/core/definitions/model';
+import { ID } from '../../app/Shared/Definitions/id';
+import { Model } from '../../app/Shared/Definitions/model';
 import { User } from '../../app/core/entities/user';
 
 export class UserModel implements Model {

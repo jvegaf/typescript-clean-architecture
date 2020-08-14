@@ -1,6 +1,6 @@
 import './register';
 
-import { ID } from '../../app/core/definitions/id';
+import { ID } from '../../app/Shared/Definitions/id';
 import { DepositInput } from '../../app/deposit/deposit.in';
 import { SignupInput } from '../../app/signup/signup.in';
 import { TransferInput } from '../../app/transfer/transfer.in';

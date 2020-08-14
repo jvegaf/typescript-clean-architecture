@@ -1,12 +1,12 @@
-import { Interactor } from '../core/definitions/interactor';
+import { Interactor } from '../Shared/Definitions/interactor';
 import { Transaction, TRANSACTION_TYPES } from '../core/entities/transaction';
-import { ApplicationErrorFactory } from '../core/definitions/application-error-factory';
+import { ApplicationErrorFactory } from '../Shared/Error/application-error-factory';
 
 import { DepositInput } from './deposit.in';
 import { DepositOutput } from './deposit.out';
 import { DepositRepository } from './deposit.repository';
 import { DepositValidator } from './deposit.validator';
-import { ErrorType } from '../core/definitions/error-type';
+import { ErrorType } from '../Shared/Error/error-type';
 
 export class DepositInteractor implements Interactor {
   constructor(

@@ -1,4 +1,4 @@
-import { ID } from '../definitions/id';
+import { ID } from '../../Shared/Definitions/id';
 
 import { Entity } from './entity';
 import { User } from './user';
