@@ -1,5 +1,5 @@
 import { TransferInteractor } from '../src/app/transfer/transfer.interactor';
-import { TestEnvironment } from '../src/test-environment';
+import { TestEnvironment } from './test-environment';
 import { TransferInput } from '../src/app/transfer/transfer.in';
 import { TransferOutput } from '../src/app/transfer/transfer.out';
 import { ValidatorResult } from '../src/app/Shared/Definitions/validator-result';

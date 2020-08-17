@@ -11,7 +11,7 @@
   },
   "include": [
     "src/*.ts",
-    "src/**/*.ts", "test/deposit.interactor.spec.ts", "test/signup.interactor.spec.ts", "test/transfer.interactor.spec.ts"
+    "src/**/*.ts", "test/deposit.interactor.spec.ts", "test/signup.interactor.spec.ts", "test/transfer.interactor.spec.ts", "test/test-environment.ts"
   ],
   "exclude": [
     "**/*.spec.ts",

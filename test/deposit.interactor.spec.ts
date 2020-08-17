@@ -1,5 +1,5 @@
 import { DepositInteractor } from '../src/app/deposit/deposit.interactor';
-import { TestEnvironment } from '../src/test-environment';
+import { TestEnvironment } from './test-environment';
 import { DepositInput } from '../src/app/deposit/deposit.in';
 import { DepositOutput } from '../src/app/deposit/deposit.out';
 import { ValidatorResult } from '../src/app/Shared/Definitions/validator-result';
