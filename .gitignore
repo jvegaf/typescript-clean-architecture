@@ -19,7 +19,8 @@
 *.sublime-workspace
 
 # IDE - VSCode
-.vscode/*
+
+#.vscode/*
 
 # misc
 /.sass-cache
