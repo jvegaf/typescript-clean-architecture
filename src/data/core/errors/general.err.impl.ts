@@ -1,13 +1,13 @@
-import { CustomError } from '../../../app/Shared/Error/custom-error';
+import { CustomError } from '../../../app/Shared/Error/custom-error'
 
 export class GeneralErrorImpl extends CustomError {
-  name = 'generalError';
+  name = 'generalError'
 
   constructor() {
-    super();
+    super()
   }
 
   toString(): string {
-    return `${this.name}`;
+    return `${this.name}`
   }
 }

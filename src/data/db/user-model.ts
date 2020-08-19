@@ -1,19 +1,19 @@
-import { ID } from '../../app/Shared/Definitions/id';
-import { Model } from '../../app/Shared/Definitions/model';
-import { User } from '../../app/core/entities/user';
+import { ID } from '../../app/Shared/Definitions/id'
+import { Model } from '../../app/Shared/Definitions/model'
+import { User } from '../../app/core/entities/user'
 
 export class UserModel implements Model {
-  $loki!: ID;
-  firstname!: string;
-  lastname!: string;
-  email!: string;
-  username!: string;
-  password!: string;
-  createdAt!: Date;
-  balance = 0;
+  $loki!: ID
+  firstname!: string
+  lastname!: string
+  email!: string
+  username!: string
+  password!: string
+  createdAt!: Date
+  balance = 0
 
   constructor(userEntity?: Partial<User>) {
-    this.fromEntity(userEntity);
+    this.fromEntity(userEntity)
   }
 
   toEntity(): User {
@@ -24,39 +24,39 @@ export class UserModel implements Model {
       email: this.email,
       username: this.username,
       balance: this.balance,
-      password: this.password,
-    };
+      password: this.password
+    }
   }
 
   private fromEntity(userEntity?: Partial<User>): void {
-    if (!userEntity) return;
+    if (!userEntity) return
 
     if (userEntity.id) {
-      this.$loki = userEntity.id;
+      this.$loki = userEntity.id
     }
 
     if (userEntity.firstname) {
-      this.firstname = userEntity.firstname;
+      this.firstname = userEntity.firstname
     }
 
     if (userEntity.email) {
-      this.email = userEntity.email;
+      this.email = userEntity.email
     }
 
     if (userEntity.lastname) {
-      this.lastname = userEntity.lastname;
+      this.lastname = userEntity.lastname
     }
 
     if (userEntity.password) {
-      this.password = userEntity.password;
+      this.password = userEntity.password
     }
 
     if (userEntity.username) {
-      this.username = userEntity.username;
+      this.username = userEntity.username
     }
 
     if (userEntity.balance) {
-      this.balance = userEntity.balance;
+      this.balance = userEntity.balance
     }
   }
 }

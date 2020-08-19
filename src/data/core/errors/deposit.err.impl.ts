@@ -1,14 +1,14 @@
-import { CustomError } from '../../../app/Shared/Error/custom-error';
+import { CustomError } from '../../../app/Shared/Error/custom-error'
 
 export class DepositErrorImpl extends CustomError {
-  name = 'depositError';
+  name = 'depositError'
 
   constructor() {
-    super();
+    super()
   }
 
   toString(): string {
     return `${this.name}:
-    ${this.data}`;
+    ${this.data}`
   }
 }

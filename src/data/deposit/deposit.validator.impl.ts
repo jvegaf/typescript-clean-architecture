@@ -1,29 +1,29 @@
-import * as Module from 'joi';
+import * as Module from 'joi'
 
-import { ValidatorResult } from '../../app/Shared/Definitions/validator-result';
-import { DepositInput } from '../../app/deposit/deposit.in';
-import { DepositValidator } from '../../app/deposit/deposit.validator';
+import { ValidatorResult } from '../../app/Shared/Definitions/validator-result'
+import { DepositInput } from '../../app/deposit/deposit.in'
+import { DepositValidator } from '../../app/deposit/deposit.validator'
 
-type Joi = typeof Module;
+type Joi = typeof Module
 
 export class DepositValidatorImpl implements DepositValidator {
-  private joi: Joi;
-  private schema: Module.ObjectSchema;
+  private joi: Joi
+  private schema: Module.ObjectSchema
 
   constructor(joi: Joi) {
-    this.joi = joi;
+    this.joi = joi
     this.schema = this.joi.object().keys({
       userId: this.joi.alternatives().try(joi.string(), joi.number()),
       value: this.joi
         .number()
         .min(10)
         .max(1000)
-        .required(),
-    });
+        .required()
+    })
   }
 
   validate(request: DepositInput): ValidatorResult {
-    const joiResult = this.joi.validate(request, this.schema);
-    return { valid: joiResult.error === null, error: joiResult.error };
+    const joiResult = this.joi.validate(request, this.schema)
+    return { valid: joiResult.error === null, error: joiResult.error }
   }
 }

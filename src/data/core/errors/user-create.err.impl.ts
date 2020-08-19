@@ -1,14 +1,14 @@
-import { CustomError } from '../../../app/Shared/Error/custom-error';
+import { CustomError } from '../../../app/Shared/Error/custom-error'
 
 export class UserCreateErrorImpl extends CustomError {
-  name = 'userCreateError';
+  name = 'userCreateError'
 
   constructor() {
-    super();
+    super()
   }
 
   toString(): string {
     return `${this.name}:
-    ${this.data}`;
+    ${this.data}`
   }
 }

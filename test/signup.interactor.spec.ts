@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { SignupInteractor } from '../src/app/signup/signup.interactor';
 import { TestEnvironment } from './test-environment';
 import { SignupInput } from '../src/app/signup/signup.in';

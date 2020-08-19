@@ -1,11 +1,11 @@
-import { ID } from '../../Shared/Definitions/id';
+import { ID } from '../../Shared/Definitions/id'
 
-import { Entity } from './entity';
-import { User } from './user';
+import { Entity } from './entity'
+import { User } from './user'
 
 export enum TRANSACTION_TYPES {
   DEPOSIT = 'deposit',
-  TRANSFER = 'transfer',
+  TRANSFER = 'transfer'
 }
 
 export class Transaction implements Entity {
@@ -14,6 +14,6 @@ export class Transaction implements Entity {
     public to: User,
     public value: number,
     public type: TRANSACTION_TYPES,
-    public id?: ID,
+    public id?: ID
   ) {}
 }

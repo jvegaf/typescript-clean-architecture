@@ -1,7 +1,7 @@
-import { Err } from './err';
+import { Err } from './err'
 
-import { CustomError } from './custom-error';
+import { CustomError } from './custom-error'
 
 export interface ApplicationErrorFactory {
-  getError(name: string, data?: Err): CustomError;
+  getError(name: string, data?: Err): CustomError
 }

@@ -6,5 +6,5 @@ export enum ErrorType {
   userCreate = 'userCreate',
   userExists = 'userExists',
   transfer = 'transfer',
-  userHasNoBalance = 'userHasNoBalance',
+  userHasNoBalance = 'userHasNoBalance'
 }

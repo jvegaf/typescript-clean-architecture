@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { TransferInteractor } from '../src/app/transfer/transfer.interactor';
 import { TestEnvironment } from './test-environment';
 import { TransferInput } from '../src/app/transfer/transfer.in';

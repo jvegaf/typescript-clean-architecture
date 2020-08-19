@@ -1,9 +1,9 @@
-import { ID } from '../Shared/Definitions/id';
-import { Transaction } from '../core/entities/transaction';
-import { User } from '../core/entities/user';
+import { ID } from '../Shared/Definitions/id'
+import { Transaction } from '../core/entities/transaction'
+import { User } from '../core/entities/user'
 
 export interface DepositRepository {
-  findUserById(id: ID): Promise<User | null>;
-  saveUser(user: User): Promise<boolean>;
-  createTransaction(transaction: Transaction): Promise<ID>;
+  findUserById(id: ID): Promise<User | null>
+  saveUser(user: User): Promise<boolean>
+  createTransaction(transaction: Transaction): Promise<ID>
 }

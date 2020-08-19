@@ -1,5 +1,5 @@
-import { Entity } from '../../core/entities/entity';
+import { Entity } from '../../core/entities/entity'
 
 export interface Model {
-  toEntity(): Entity;
+  toEntity(): Entity
 }

@@ -1,14 +1,14 @@
-import { CustomError } from '../../../app/Shared/Error/custom-error';
+import { CustomError } from '../../../app/Shared/Error/custom-error'
 
 export class UserDoesNotExistsErrorImpl extends CustomError {
-  name = 'userDoesNotExistsError';
+  name = 'userDoesNotExistsError'
 
   constructor() {
-    super();
+    super()
   }
 
   toString(): string {
     return `${this.name}:
-    ${JSON.stringify(this.data, null, 2)}`;
+    ${JSON.stringify(this.data, null, 2)}`
   }
 }

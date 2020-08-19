@@ -1,6 +1,6 @@
-import { Input } from './input';
-import { Output } from './output';
+import { Input } from './input'
+import { Output } from './output'
 
 export interface Interactor {
-  execute(request: Input): Promise<Output>;
+  execute(request: Input): Promise<Output>
 }

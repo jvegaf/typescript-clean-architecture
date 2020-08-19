@@ -1,14 +1,14 @@
-import { CustomError } from '../../../app/Shared/Error/custom-error';
+import { CustomError } from '../../../app/Shared/Error/custom-error'
 
 export class ValidationErrorImpl extends CustomError {
-  name = 'validationError';
+  name = 'validationError'
 
   constructor() {
-    super();
+    super()
   }
 
   toString(): string {
     return `${this.name}:
-    ${JSON.stringify(this.data, null, 2)}`;
+    ${JSON.stringify(this.data, null, 2)}`
   }
 }
