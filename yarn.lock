@@ -4207,6 +4207,11 @@ regex-not@^1.0.0, regex-not@^1.0.2:
     extend-shallow "^3.0.2"
     safe-regex "^1.1.0"
 
+regexpattern-collection@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/regexpattern-collection/-/regexpattern-collection-1.0.1.tgz#d67d123a08adcf0340e29c841d4bc390da613ad2"
+  integrity sha512-ojvnrbymBJ0lZhn87nu6JJl+34H5amJ9xD9/fSnpkCW9d8zB64SaZfvvGtx6QS+kSQQCZVrfW+IQOhNj+xjKbA==
+
 regexpp@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/regexpp/-/regexpp-2.0.1.tgz#8d19d31cf632482b589049f8281f93dbcba4d07f"
